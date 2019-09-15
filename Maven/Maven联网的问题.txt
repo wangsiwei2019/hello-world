@@ -1,0 +1,9 @@
+关于联网的问题：
+       Maven的核心程序中仅仅定义抽象的生命周期，但是具体的工作
+必须由特定的插件来完成
+       当我们执行的Maven命令需要用到某些插件，Maven核心程序会首先在本地仓库里面找
+       Maven核心程序如果在本地仓库里找不到需要的插件，会连外网到中央仓库下载，如果
+没有网，则会构建失败
+       可以修改Maven默认的本地仓库
+             修改方式：进入Maven的解压文件夹，进入conf目录修改setting.xml配置文件
+将地址修改   <localRepository>D:\lingxiu\apache-maven-3.5.2\m2</localRepository>
