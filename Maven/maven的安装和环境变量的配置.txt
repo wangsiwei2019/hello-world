@@ -1,0 +1,6 @@
+安装Maven的核心程序
+1)检查JAVA-HOME环境变量
+2）解压Maven核心程序的压缩包（不要放在有中文的文件夹下）
+3)配置maven相关的环境变量
+         MAVEN-HOME或者M2_HOME
+         path(注意加上bin目录)
